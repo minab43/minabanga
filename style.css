@@ -1,0 +1,148 @@
+h1 {
+   color: seagreen; background-color:beige;
+   padding: 10px;
+   margin: 10px;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px lightgreen;
+    font-size: 50px;
+}
+#img-1 {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+nav {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+ul  {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    text-transform: lowercase;
+    color: #b3c3b3;
+
+
+}
+li {
+    float: left;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    text-transform: lowercase;
+    color: #b3c3b3;
+    display: block;
+    
+    
+}
+body {
+    background-color: beige
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:300;
+    font-style: oblique;
+}
+p {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 10px;
+   margin: 10px;
+   font-size: 30px;
+   color: #a8c686;
+    border: 2px solid springgreen;
+    border-radius: 150px;
+    box-shadow:#b3c3b3
+    text-align center;
+    text-shadow: #B2AC88;
+
+}
+
+.icons {
+    padding: 10px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+
+main {
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.navbar {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutme {
+    margin: 10px;
+    padding: 10px;
+    text-indent: 50px;
+    color: darkolivegreen;
+    text-shadow: blur;
+    border-style: none;
+    border-radius: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    letter-spacing: 5px;
+    border-style: dashed;
+    border-color: gray;
+    border-radius: 50px;
+
+}
+
+.photos {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-row: auto;
+gap: 10px;
+padding: 10px;
+margin: 10px;
+
+}
+
+img {
+    width: 100px;
+}
+
+.Projects {
+    display: block;
+    border-radius: 50px;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+    color: green;
+    border: green;
+}
+
+.projectphotos {
+    flex-wrap:wrap;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: auto;
+}
